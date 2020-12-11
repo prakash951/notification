@@ -17,19 +17,19 @@ required) 
 
 
 
-#Tech Stack:
+# Tech Stack:
 
 * JDK 11 or Higher
 * Spring Boot
 * Apache Camel
 
-#Tools Used
+# Tools Used
 
 * Rabbit MQ
 * Slack
 * Spring Source Tool Suite
 
-#SetUp
+# SetUp
 
 1. Download and install rabbit mq server 
 2. Download and install Spring Source tool suite
