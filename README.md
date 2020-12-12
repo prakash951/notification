@@ -1,4 +1,4 @@
-# notification
+# Notification Service
 
 Problem Statement 
 Most applications have the need to implement notifications for a variety of use cases and
@@ -34,4 +34,34 @@ required) 
 1. Download and install rabbit mq server 
 2. Download and install Spring Source tool suite
 3. Download and install slack 
+
+#Soltuion
+
+	A rest endpoint which notifies rabbit mq queue, Slack channel and e-mail
+
+# Running Instructions
+
+
+1. Rabbit Mq Configuration
+    1. Configure Rabbit MQ Exchange
+    2. Configure a Rabbit Queue using that exchange and configure a routing-key
+    3. Monitor the queue
+2. Slack Configuration
+	1. Create a slack channel
+	2. Create a slack app using this channel generate a webhook
+3. E-Mail Configuration
+	1. Get the smtp url for particular e-mail provider
+	2. Import SMTP provider certificate into java key store
+	3. Create an e-mail
+	
+	
+	After finishing all the steps, configure the above properties in application.properties file
+
+	Navigate to application directory and run the application using the command <b>mvnw spring-boot:run</b>
+
+	
+
+
+
+   
 
