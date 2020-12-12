@@ -33,7 +33,7 @@ public class NotificationService {
 		try {
 			producer.sendBody(notification);
 			slackProducer.sendBody(mapper.writeValueAsString(notification));
-			mailProducer.sendBody(mapper.writeValueAsString(notification));
+			mailProducer.sendBody(notification);
 		} catch (CamelExecutionException | JsonProcessingException e) {
 			e.printStackTrace();
 		}
