@@ -15,8 +15,6 @@ The system should allow for the following capabilities: 
 required) 
 3. Deliver messages in correct order for each consumer of this
 
-
-
 # Tech Stack:
 
 * JDK 11 or Higher
@@ -35,9 +33,12 @@ required) 
 2. Download and install Spring Source tool suite
 3. Download and install slack 
 
-#Soltuion
+# Soltuion
 
 	A rest endpoint which notifies rabbit mq queue, Slack channel and e-mail
+	
+	End-point: http://localhost:8080/notify
+	Method: Post
 
 # Running Instructions
 
@@ -48,9 +49,9 @@ required) 
     3. Monitor the queue
 2. Slack Configuration
 	1. Create a slack channel
-	2. Create a slack app using this channel generate a webhook
+	2. Create a slack app using this channel and generate a webhook
 3. E-Mail Configuration
-	1. Get the smtp url for particular e-mail provider
+	1. Get the smtp url for respective e-mail provider
 	2. Import SMTP provider certificate into java key store
 	3. Create an e-mail
 	
