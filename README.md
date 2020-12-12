@@ -26,6 +26,7 @@ required) 
 * Rabbit MQ
 * Slack
 * Spring Source Tool Suite
+* Postman
 
 # SetUp
 
@@ -58,7 +59,9 @@ required) 
 	
 	After finishing all the steps, configure the above properties in application.properties file
 
-	Navigate to application directory and run the application using the command <b>mvnw spring-boot:run</b>
+	Navigate to application directory and run the application using the command <b>mvnw spring-boot:run</b>\
+	
+	Please refer screen shots folder for more information
 
 	
 
