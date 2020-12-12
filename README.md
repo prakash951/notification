@@ -49,11 +49,11 @@ required) 
     3. Monitor the queue
 2. Slack Configuration
 	1. Create a slack channel
-	2. Create a slack app using this channel and generate a webhook
+	2. Create a slack app using that channel and generate a webhook
 3. E-Mail Configuration
 	1. Get the smtp url for respective e-mail provider
-	2. Import SMTP provider certificate into java key store
-	3. Create an e-mail
+	2. Import SMTP provider client certificate into your java key store
+	3. Create an e-mail from where you want to send e-mails
 	
 	
 	After finishing all the steps, configure the above properties in application.properties file
